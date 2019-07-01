@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
 
-  s.source       = { :git => "https://github.com/intellij-ShivamNumericKeyboardiOS.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/intellij-Shivam/NumericKeyboardiOS.git", :tag => s.version.to_s }
 
   s.swift_version = "4.2" 
   s.source_files  = "NumericKeypad"
