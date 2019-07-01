@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 
-  s.name         = "AndroidNumberKeyboardForiOS"
+  s.name         = "SSKeyboardiOS"
   s.version      = "0.0.2"
   s.summary      = "A Numeric Keyboard for iPads"
   s.description  = "A Numeric keyboard for iPads like android"
