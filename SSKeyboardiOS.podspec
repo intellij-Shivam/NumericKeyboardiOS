@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SSKeyboardiOS"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "A Numeric Keyboard for iPads"
   s.description  = "A Numeric keyboard for iPads like android"
   s.homepage     = "https://github.com/intellij-Shivam"
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
 
   s.swift_version = "4.2" 
   s.source_files  = "NumericKeypad"
-  s.resources = ["NumericKeyboardiOS/NumericKeypad/NumericKeyboard.xib","NumericKeyboardiOS/NumericKeypad/Media.xcassets/ic_backspace.imageset/backspace\ \(1\).png"]
+  s.resources = ["NumericKeyboardiOS/NumericKeypad/NumericKeyboard.xib", "NumericKeyboardiOS/NumericKeypad/Media.xcassets/ic_backspace.imageset/backspace.png"]
 
 end
