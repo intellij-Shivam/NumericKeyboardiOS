@@ -11,6 +11,7 @@
 		4021CE7921B95106009BE9D5 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4021CE7821B95106009BE9D5 /* Keyboard.swift */; };
 		4021CE7B21B951BD009BE9D5 /* NumericKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4021CE7A21B951BD009BE9D5 /* NumericKeyboard.xib */; };
 		4021CE7D21B95269009BE9D5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4021CE7C21B95269009BE9D5 /* Media.xcassets */; };
+		407311A122CA146000D575AC /* backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = 407311A022CA146000D575AC /* backspace.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4021CE7821B95106009BE9D5 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		4021CE7A21B951BD009BE9D5 /* NumericKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumericKeyboard.xib; sourceTree = "<group>"; };
 		4021CE7C21B95269009BE9D5 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		407311A022CA146000D575AC /* backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backspace.png; path = Media.xcassets/ic_backspace.imageset/backspace.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				4021CE7021B94F4B009BE9D5 /* NumericKeypad.h */,
 				4021CE7121B94F4B009BE9D5 /* Info.plist */,
 				4021CE7A21B951BD009BE9D5 /* NumericKeyboard.xib */,
+				407311A022CA146000D575AC /* backspace.png */,
 				4021CE7821B95106009BE9D5 /* Keyboard.swift */,
 				4021CE7C21B95269009BE9D5 /* Media.xcassets */,
 			);
@@ -132,6 +135,7 @@
 			files = (
 				4021CE7D21B95269009BE9D5 /* Media.xcassets in Resources */,
 				4021CE7B21B951BD009BE9D5 /* NumericKeyboard.xib in Resources */,
+				407311A122CA146000D575AC /* backspace.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
