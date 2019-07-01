@@ -10,9 +10,9 @@ import UIKit
 
 typealias EnterButtonBlock = (_ sender: UIButton) -> Void
 
-let keyboardFrame = CGRect(x: 0, y: 0, width: 350, height: 300)
+public let keyboardFrame = CGRect(x: 0, y: 0, width: 350, height: 300)
 
-class Keyboard: UIView {
+public class Keyboard: UIView {
     var view: UIView!
     var enterCallback: EnterButtonBlock?
     
@@ -25,7 +25,7 @@ class Keyboard: UIView {
         self.dotButton.isHidden = !show
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         super.draw(rect)
     }
     
