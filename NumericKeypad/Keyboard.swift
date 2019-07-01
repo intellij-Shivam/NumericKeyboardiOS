@@ -8,35 +8,35 @@
 
 import UIKit
 
-typealias EnterButtonBlock = (_ sender: UIButton) -> Void
+public typealias EnterButtonBlock = (_ sender: UIButton) -> Void
 
 public let keyboardFrame = CGRect(x: 0, y: 0, width: 350, height: 300)
 
-public class Keyboard: UIView {
+open class Keyboard: UIView {
     var view: UIView!
     var enterCallback: EnterButtonBlock?
     
     @IBOutlet public var dotButton: UIButton!
     
-    init(showDotButton show:Bool = false, completion:@escaping EnterButtonBlock) {
+    required public init(showDotButton show:Bool = false, completion:@escaping EnterButtonBlock) {
         super.init(frame: keyboardFrame)
         enterCallback = completion
         setupXib()
         self.dotButton.isHidden = !show
     }
     
-    override public func draw(_ rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         super.draw(rect)
     }
     
-    override public func prepareForInterfaceBuilder() {
+    override open func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         self.view.isOpaque = false
         view.isOpaque = false
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -72,7 +72,7 @@ public class Keyboard: UIView {
             }
         }
     }
-
+    
 }
 
 public extension UIResponder {
